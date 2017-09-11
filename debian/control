@@ -1,0 +1,15 @@
+Source: debian-system-adjustments
+Section: admin
+Priority: optional
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Build-Depends: debhelper (>= 9) 
+Standards-Version: 3.9.6
+
+Package: debian-system-adjustments
+Architecture: all
+Depends: ${misc:Depends},
+         libglib2.0-bin,
+         python
+Description: Debian adjustments specific to Linux Mint.
+ Adjustments made to the Debian base.
+

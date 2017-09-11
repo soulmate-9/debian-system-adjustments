@@ -1,0 +1,408 @@
+debian-system-adjustments (2017.09.12+soulmate1) stretch; urgency=medium
+
+  * Non-maintainer upload.
+  * Rebuild for soulmate
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Mon, 11 Sep 2017 23:43:17 +0000
+
+debian-system-adjustments (2017.01.15) betsy; urgency=medium
+
+  * Silence Vbox XSession.d script using notify-send
+  * Include Xapps definitions in MIME list files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 15 Jan 2017 11:49:01 +0000
+
+debian-system-adjustments (2017.01.09) betsy; urgency=medium
+
+  * Fix gnome-system-tools services-admin scrolledview min-content-height
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 09 Jan 2017 17:43:28 +0000
+
+debian-system-adjustments (2017.01.08) betsy; urgency=medium
+
+  * Hide Yelp menu item
+  * Fix rhythmbox borders https://bugs.launchpad.net/ubuntu/+source/rhythmbox/+bug/1448272
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 09 Jan 2017 09:57:54 +0000
+
+debian-system-adjustments (2015.11.09) betsy; urgency=medium
+
+  * Moved orca to accessories
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 08 Nov 2015 18:59:23 +0000
+
+debian-system-adjustments (2015.08.17) betsy; urgency=medium
+
+  * Adjusted 10_linux for the case when GRUB_DISTRIBUTOR isn't set
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 17 Aug 2015 08:26:38 +0200
+
+debian-system-adjustments (2015.07.22.1) betsy; urgency=medium
+
+  * Fixed indent in restoration /etc/grub/10_linux
+  * Adjusted 10_linux adjustment for LMDE labels
+  * Fixed typo in maintscript rm_conffile
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 22 Jul 2015 14:42:44 +0200
+
+debian-system-adjustments (2015.07.22) betsy; urgency=medium
+
+  * Removed obsolete conffiles
+  * Updated/Fixed /etc/grub/10_linux
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 22 Jul 2015 13:19:17 +0200
+
+debian-system-adjustments (2015.04.03) betsy; urgency=medium
+
+  * Hide pppoeconf.desktop
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 03 Apr 2015 16:07:24 +0200
+
+debian-system-adjustments (2015.03.11) betsy; urgency=medium
+
+  * Added /usr/local/bin/mate-system-monitor (needed cause the mate system-monitor applet calls mate-system-monitor even when it's not installed)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 11 Mar 2015 15:34:33 +0100
+
+debian-system-adjustments (2015.03.08) betsy; urgency=medium
+
+  * Hide gdebi in the menu
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 08 Mar 2015 22:08:39 +0100
+
+debian-system-adjustments (2015.03.03) betsy; urgency=medium
+
+  * Updated Yahoo URLs
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 03 Mar 2015 17:49:51 +0100
+
+debian-system-adjustments (2015.03.02.1) betsy; urgency=medium
+
+  * Removed caja adjustment
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 02 Mar 2015 13:56:59 +0100
+
+debian-system-adjustments (2015.03.02) betsy; urgency=medium
+
+  * Modified grub adjustment (don't show version in title, only description)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 02 Mar 2015 09:41:46 +0100
+
+debian-system-adjustments (2015.02.27.3) betsy; urgency=medium
+
+  * Switched mate-help to call yelp on mate-user-guide
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 27 Feb 2015 16:47:03 +0100
+
+debian-system-adjustments (2015.02.27.2) betsy; urgency=medium
+
+  * Switched default FF page for betsy
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 27 Feb 2015 16:25:34 +0100
+
+debian-system-adjustments (2015.02.27.1) betsy; urgency=medium
+
+  * Gave MATE apps generic names
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 27 Feb 2015 14:32:53 +0100
+
+debian-system-adjustments (2015.02.27) betsy; urgency=medium
+
+  * Adjusted mint-user-guide's title and version in LMDE
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 27 Feb 2015 09:35:12 +0100
+
+debian-system-adjustments (2015.02.04) betsy; urgency=medium
+
+  * FF: Disabled notifications (what I share, welcome back, etc..)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 04 Feb 2015 13:11:12 +0100
+
+debian-system-adjustments (2015.02.03) betsy; urgency=medium
+
+  * Removed obsolete gnome's menus-have-icons setting
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 03 Feb 2015 14:26:47 +0100
+
+debian-system-adjustments (2015.02.02.1) betsy; urgency=medium
+
+  * Don't override yelp when called without arguments (fixed in yelp itself)
+  * Reduced startcaja latency to 1 second
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 02 Feb 2015 18:13:29 +0100
+
+debian-system-adjustments (2015.02.02) betsy; urgency=medium
+
+  * Added menu adjustments
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 02 Feb 2015 15:03:03 +0100
+
+debian-system-adjustments (2014.02.27.1) debian; urgency=low
+
+  * Fixed typo
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 27 Feb 2014 11:18:29 +0000
+
+debian-system-adjustments (2014.02.27) debian; urgency=low
+
+  * Removed Grub adjustment on splash (prevented user changes)
+  * Fix system fonts
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 27 Feb 2014 11:07:17 +0000
+
+debian-system-adjustments (2014.02.26) debian; urgency=low
+
+  * Adjusted Grub for title and splash
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 26 Feb 2014 14:22:23 +0000
+
+debian-system-adjustments (2014.02.15.1) debian; urgency=low
+
+  * Hide gksu
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 15 Feb 2014 17:01:44 +0000
+
+debian-system-adjustments (2014.02.15) debian; urgency=low
+
+  * Added rules and mime checks
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 15 Feb 2014 14:40:38 +0000
+
+debian-system-adjustments (2014.02.14) debian; urgency=low
+
+  * Removed imagemagick from the menu
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 14 Feb 2014 13:09:15 +0000
+
+debian-system-adjustments (2014.02.12) debian; urgency=low
+
+  * Removed duplicated nm-applet in mate-session-properties
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 12 Feb 2014 10:06:13 +0000
+
+debian-system-adjustments (2014.02.11.1) debian; urgency=low
+
+  * Added nm-applet to MATE, LXDE and Xfce
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 11 Feb 2014 23:22:34 +0000
+
+debian-system-adjustments (2014.02.11) debian; urgency=low
+
+  * Added nm-applet adjustment
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 11 Feb 2014 12:49:31 +0000
+
+debian-system-adjustments (2014.02.10) debian; urgency=low
+
+  * Updated search engines (updates, localization, https)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 10 Feb 2014 17:39:44 +0000
+
+debian-system-adjustments (2014.02.04) debian; urgency=low
+
+  * Removed the Amazon store from Banshee
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 04 Feb 2014 10:51:11 +0000
+
+debian-system-adjustments (2014.01.31) debian; urgency=low
+
+  * Make sure os-release is updated as soon as possible
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Fri, 31 Jan 2014 11:16:02 +0100
+
+debian-system-adjustments (2014.01.30.1) debian; urgency=low
+
+  * Added missing /usr/bin/startcaja
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 30 Jan 2014 11:31:47 +0000
+
+debian-system-adjustments (2014.01.30) debian; urgency=low
+
+  * Imported latest system changes from Petra
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 30 Jan 2014 11:22:51 +0000
+
+debian-system-adjustments (2013.09.29) debian; urgency=low
+
+  * Added missing triggered clause in postinst
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 29 Sep 2013 12:14:41 +0100
+
+debian-system-adjustments (2013.09.12.1) debian; urgency=low
+
+  * Use symlinks not hardlinks..
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 12 Sep 2013 16:10:42 +0100
+
+debian-system-adjustments (2013.09.12) debian; urgency=low
+
+  * Fixed fonts
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 12 Sep 2013 16:01:01 +0100
+
+debian-system-adjustments (2013.05.17) debian; urgency=low
+
+  * Updated adjustments for FF 21
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 17 May 2013 15:47:38 +0100
+
+debian-system-adjustments (2013.02.19) debian; urgency=low
+
+  * Fix typo
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Tue, 19 Feb 2013 15:46:20 +0100
+
+debian-system-adjustments (2013.01.31) debian; urgency=low
+
+  * Add apturl and mailto support in firefox
+  * Update mimetypes
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Thu, 31 Jan 2013 16:50:35 +0100
+
+debian-system-adjustments (2012.12.12) debian; urgency=low
+
+  * Added gnome-panel layout adjustment 
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 12 Dec 2012 10:13:15 +0000
+
+debian-system-adjustments (2012.12.11) debian; urgency=low
+
+  * Updated FF bookmarks
+  * Added support for Yahoo in 7 additional countries
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 11 Dec 2012 16:19:56 +0000
+
+debian-system-adjustments (2012.04.21) debian; urgency=low
+
+  * Enabled Xhost + by default
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 21 Apr 2012 18:36:27 +0100
+
+debian-system-adjustments (2012.04.20.3) debian; urgency=low
+
+  * Removed /usr/share/applications/mimetypes (they need to be different depending on the ISO edition)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 20 Apr 2012 17:11:00 +0100
+
+debian-system-adjustments (2012.04.20.2) debian; urgency=low
+
+  * Told QT4 apps to use the GTK style
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 20 Apr 2012 15:34:00 +0100
+
+debian-system-adjustments (2012.04.20.1) debian; urgency=low
+
+  * Removed cups-pdf adjustment
+  * Added mimetypes
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 20 Apr 2012 14:12:25 +0100
+
+debian-system-adjustments (2012.04.20) debian; urgency=low
+
+  * Added defaults for MDM
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 20 Apr 2012 11:57:00 +0100
+
+debian-system-adjustments (2012.04.18) debian; urgency=low
+
+  * Changed default fonts to Ubuntu 10 in Cinnamon
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 18 Apr 2012 14:52:03 +0100
+
+debian-system-adjustments (2012.04.16.3) debian; urgency=low
+
+  * Use /etc/default/locale instead of $LANG
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 16 Apr 2012 11:03:10 +0100
+
+debian-system-adjustments (2012.04.16) debian; urgency=low
+
+  * Added Yahoo to FF
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 16 Apr 2012 10:32:00 +0100
+
+debian-system-adjustments (2012.04.9.2) debian; urgency=low
+
+  * Fixed FF mimetypes
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 09 Apr 2012 12:46:00 +0100
+
+debian-system-adjustments (2012.04.7.1) debian; urgency=low
+
+  * Added dependency on libglib2.0-bin
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 07 Apr 2012 20:24:00 +0100
+
+debian-system-adjustments (2012.04.7) debian; urgency=low
+
+  * Added mate-help
+  * Added ctrl_alt_backspace shortcut
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 07 Apr 2012 16:34:37 +0100
+
+debian-system-adjustments (2012.04.5) debian; urgency=low
+
+  * Default gsettings
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 05 Apr 2012 12:12:33 +0100
+
+debian-system-adjustments (2012.03.29.1) debian; urgency=low
+
+  * Select DDG as default FF search plugin
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 29 Mar 2012 18:03:34 +0000
+
+debian-system-adjustments (2012.03.29) debian; urgency=low
+
+  * Fixed gdm3 gsettings
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 29 Mar 2012 11:37:46 +0100
+
+debian-system-adjustments (2012.03.28) debian; urgency=low
+
+  * Set gedit so it doesn't create backup copies
+  * Themed GDM3
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 28 Mar 2012 17:59:49 +0100
+
+debian-system-adjustments (2011.10.06) debian; urgency=low
+
+  * Disabled all Opera adjustments and pre-configuration
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu,  06 Oct 2011 15:00:00 +0000
+
+debian-system-adjustments (2011.07.30) debian; urgency=low
+
+  * Changed default start page from katya to debian
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat,  30 Jul 2011 09:33:00 +0000
+
+debian-system-adjustments (2011.06.09.1) debian; urgency=low
+
+  * Added breaks and replaces clause for a smooth transition to Firefox 4
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu,  9 Jun 2011 12:59:00 +0000
+
+debian-system-adjustments (2011.06.09) debian; urgency=low
+
+  * Browser adjustments
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu,  9 Jun 2011 12:12:00 +0000
+
+debian-system-adjustments (2011.03.15) debian; urgency=low
+
+  * Added cups-pdf adjustment
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue,  15 Mar 2011 13:10:00 +0000
+
+debian-system-adjustments (2010.12.02) debian; urgency=low
+
+  * Mint 10 artwork for GDM
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu,  02 Dec 2010 12:24:00 +0000
+
+debian-system-adjustments (2010.11.26) debian; urgency=low
+
+  * Initial release
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri,  26 Nov 2010 13:41:00 +0000

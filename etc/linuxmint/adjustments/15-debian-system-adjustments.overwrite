@@ -1,0 +1,6 @@
+/usr/share/debian-system-adjustments/sound/silent.oga /usr/share/sounds/freedesktop/stereo/device-added.oga
+/usr/share/debian-system-adjustments/sound/silent.oga /usr/share/sounds/freedesktop/stereo/device-removed.oga
+/usr/share/debian-system-adjustments/fonts/53-monospace-lcd-filter.conf /etc/fonts/conf.avail/53-monospace-lcd-filter.conf
+/usr/share/debian-system-adjustments/rhythmbox/style.css /usr/share/rhythmbox/style.css
+/usr/share/debian-system-adjustments/gnome-system-tools/services.ui /usr/share/gnome-system-tools/ui/services.ui
+

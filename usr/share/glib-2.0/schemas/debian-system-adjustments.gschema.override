@@ -1,0 +1,13 @@
+[org.gnome.desktop.interface]
+icon-theme='Mint-X'
+gtk-theme='Mint-X'
+toolkit-accessibility=false
+font-name='Ubuntu 10'
+
+[org.gnome.gedit.preferences.editor]
+create-backup-copy=false
+
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/linuxmint-debian/gelsan_debian.png'
+show-desktop-icons=true
+

@@ -1,0 +1,8 @@
+rm_conffile /etc/linuxmint/adjustments/15-cups-pdf.overwrite 2015.07.22~
+rm_conffile /etc/linuxmint/adjustments/15-mdm.overwrite 2015.07.22~
+rm_conffile /etc/linuxmint/adjustments/15-opera.overwrite 2015.07.22~
+rm_conffile /etc/xdg/autostart/lmde-xhost-plus.desktop 2015.07.22~
+rm_conffile /etc/linuxmint/adjustments/15-grub.overwrite 2015.07.22.1~
+rm_conffile /etc/linuxmint/adjustments/15-gdm3.overwrite 2015.07.22~
+rm_conffile /etc/linuxmint/adjustments/15-gnome-mimetypes 2015.07.22~
+rm_conffile /etc/linuxmint/adjustments/15-gnome-sound.overwrite 2015.07.22~

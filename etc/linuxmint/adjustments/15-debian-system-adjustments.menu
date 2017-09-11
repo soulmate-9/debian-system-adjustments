@@ -1,0 +1,23 @@
+hide /usr/share/applications/display-im6.desktop
+hide /usr/share/applications/display-im6.q16.desktop
+hide /usr/share/applications/gdebi.desktop
+hide /usr/share/applications/gksu.desktop
+hide /usr/share/applications/itweb-settings.desktop
+hide /usr/share/applications/openjdk-7-policytool.desktop
+hide /usr/share/applications/pppoeconf.desktop
+hide /usr/share/applications/yelp.desktop
+categories /usr/share/applications/libreoffice-draw.desktop Office;
+categories /usr/share/applications/libreoffice-math.desktop Office;Spreadsheet;
+categories /usr/share/applications/evince.desktop GNOME;GTK;Utility;Viewer;
+categories /usr/share/applications/orca.desktop GNOME;GTK;Utility;
+rename /usr/share/applications/atril.desktop /usr/share/debian-system-adjustments/renamed-menu-entries/atril.desktop
+rename /usr/share/applications/caja-browser.desktop /usr/share/debian-system-adjustments/renamed-menu-entries/caja-browser.desktop
+rename /usr/share/applications/engrampa.desktop /usr/share/debian-system-adjustments/renamed-menu-entries/engrampa.desktop
+rename /usr/share/applications/eom.desktop /usr/share/debian-system-adjustments/renamed-menu-entries/eom.desktop
+rename /usr/share/applications/mate-terminal.desktop /usr/share/debian-system-adjustments/renamed-menu-entries/mate-terminal.desktop
+rename /usr/share/applications/pluma.desktop /usr/share/debian-system-adjustments/renamed-menu-entries/pluma.desktop
+rename /usr/share/applications/mate-dictionary.desktop /usr/share/debian-system-adjustments/renamed-menu-entries/mate-dictionary.desktop
+rename /usr/share/applications/mate-disk-usage-analyzer.desktop /usr/share/debian-system-adjustments/renamed-menu-entries/mate-disk-usage-analyzer.desktop
+rename /usr/share/applications/mate-system-monitor.desktop /usr/share/debian-system-adjustments/renamed-menu-entries/mate-system-monitor.desktop
+rename /usr/share/applications/mate-search-tool.desktop /usr/share/debian-system-adjustments/renamed-menu-entries/mate-search-tool.desktop
+rename /usr/share/applications/mate-color-select.desktop /usr/share/debian-system-adjustments/renamed-menu-entries/mate-color-select.desktop

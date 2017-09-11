@@ -1,0 +1,9 @@
+#!/usr/bin/python
+import os, commands
+try:
+    if os.path.exists("/usr/lib/banshee/Extensions/Banshee.AmazonMp3.Store.dll"):
+        os.system("rm -rf /usr/lib/banshee/Extensions/Banshee.AmazonMp3.Store.dll")        
+    if os.path.exists("/usr/lib/banshee/Extensions/Banshee.AmazonMp3.exe"):
+        os.system("rm -rf /usr/lib/banshee/Extensions/Banshee.AmazonMp3.exe")        
+except:
+    pass

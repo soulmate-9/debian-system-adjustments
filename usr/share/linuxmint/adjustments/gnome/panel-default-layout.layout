@@ -1,0 +1,39 @@
+[Toplevel bottom-panel]
+expand=true
+orientation=bottom
+size=25
+y-bottom=0
+
+[Object menu-bar]
+object-iid=PanelInternalFactory::MenuBar
+toplevel-id=bottom-panel
+pack-index=0
+
+[Object show-desktop]
+object-iid=WnckletFactory::ShowDesktopApplet
+toplevel-id=bottom-panel
+pack-index=1
+
+[Object window-list]
+object-iid=WnckletFactory::WindowListApplet
+toplevel-id=bottom-panel
+pack-index=2
+
+[Object notification-area]
+object-iid=NotificationAreaAppletFactory::NotificationArea
+toplevel-id=bottom-panel
+pack-type=end
+pack-index=2
+
+[Object clock]
+object-iid=ClockAppletFactory::ClockApplet
+toplevel-id=bottom-panel
+pack-type=end
+pack-index=1
+
+[Object user-menu]
+object-iid=PanelInternalFactory::UserMenu
+toplevel-id=bottom-panel
+pack-type=end
+pack-index=0
+

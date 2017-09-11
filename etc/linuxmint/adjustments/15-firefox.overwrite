@@ -1,0 +1,16 @@
+/usr/share/linuxmint/adjustments/firefox/bookmarks.html /etc/firefox*/profile/bookmarks.html
+/usr/share/linuxmint/adjustments/firefox/firefox.js /etc/firefox*/pref/firefox.js
+/usr/share/linuxmint/adjustments/firefox/browserconfig.properties /usr/lib/firefox*/browserconfig.properties
+/usr/share/linuxmint/adjustments/firefox/distribution.ini /usr/lib/firefox*/distribution/distribution.ini
+/usr/share/linuxmint/adjustments/firefox/mimeTypes.rdf /etc/firefox*/profile/mimeTypes.rdf
+/usr/share/linuxmint/adjustments/firefox/bookmarks.html /etc/iceweasel*/profile/bookmarks.html
+/usr/share/linuxmint/adjustments/firefox/firefox.js /etc/iceweasel*/pref/iceweasel.js
+/usr/share/linuxmint/adjustments/firefox/mimeTypes.rdf /etc/iceweasel*/profile/mimeTypes.rdf
+/usr/share/linuxmint/adjustments/firefox/browserconfig.properties /usr/lib/iceweasel*/browserconfig.properties
+/usr/share/linuxmint/adjustments/firefox/browserconfig.properties /usr/share/iceweasel*/browserconfig.properties
+/usr/share/linuxmint/adjustments/firefox/distribution.ini /usr/lib/iceweasel*/distribution/distribution.ini
+/usr/share/linuxmint/adjustments/firefox/bookmarks.html /opt/firefox/defaults/profile/bookmarks.html
+/usr/share/linuxmint/adjustments/firefox/mimeTypes.rdf /opt/firefox/defaults/profile/mimeTypes.rdf
+/usr/share/linuxmint/adjustments/firefox/firefox.js /opt/firefox/defaults/pref/firefox-branding.js
+/usr/share/linuxmint/adjustments/firefox/browserconfig.properties /opt/firefox/browserconfig.properties
+

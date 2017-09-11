@@ -1,0 +1,8 @@
+#!/usr/bin/python
+import os, commands
+try:
+    if os.path.exists("/usr/share/help/C/linuxmint/Book_Info.xml"):
+        os.system("sed -i -e 's/MINTVERSION \".*\"/MINTVERSION \"2 Betsy\"/' -e 's/PRODUCT \"Linux Mint\"/PRODUCT \"LMDE\"/' /usr/share/help/C/linuxmint/Book_Info.xml")
+except:
+    pass
+
