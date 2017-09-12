@@ -1,6 +1,6 @@
 [org.gnome.desktop.interface]
-icon-theme='Mint-X'
-gtk-theme='Mint-X'
+icon-theme='Soulmate-Menta'
+gtk-theme='Soulmate-Menta'
 toolkit-accessibility=false
 font-name='Ubuntu 10'
 
@@ -8,6 +8,6 @@ font-name='Ubuntu 10'
 create-backup-copy=false
 
 [org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/linuxmint-debian/gelsan_debian.png'
+picture-uri='file:///usr/share/backgrounds/soulmate-default.png'
 show-desktop-icons=true
 

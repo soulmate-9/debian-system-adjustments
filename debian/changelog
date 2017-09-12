@@ -1,3 +1,9 @@
+debian-system-adjustments (2017.09.12+soulmate2) stretch; urgency=medium
+
+  * Updated default theme and background
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 12 Sep 2017 13:28:04 +0000
+
 debian-system-adjustments (2017.09.12+soulmate1) stretch; urgency=medium
 
   * Non-maintainer upload.
