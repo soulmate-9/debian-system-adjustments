@@ -28,7 +28,7 @@ user_pref("network.dns.disableIPv6", true);
 user_pref("browser.startup.homepage_override.mstone", "ignore");
 
 // Homepage
-user_pref("browser.startup.homepage", "http://www.linuxmint.com/start/betsy");
+user_pref("browser.startup.homepage", "http://www.ausiasmarch.net");
 
 // Save tabs before exiting
 user_pref("browser.showQuitWarning", true);

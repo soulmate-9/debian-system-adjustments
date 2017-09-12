@@ -19,11 +19,13 @@ user_pref("general.useragent.vendorSub", "1");
 user_pref("general.useragent.vendorComment", "Debian");
 
 // Default search engine
-user_pref("browser.search.order.1", "Yahoo");
-user_pref("browser.search.order.2", "Ixquick");
-user_pref("browser.search.order.3", "Startpage");
-user_pref("browser.search.order.4", "DuckDuckGo");
-user_pref("browser.search.selectedEngine", "Yahoo");
+user_pref("browser.search.isUS", false);
+user_pref("browser.search.order.1", "Google");
+user_pref("browser.search.order.2", "Yahoo");
+user_pref("browser.search.order.3", "Ixquick");
+user_pref("browser.search.order.4", "Startpage");
+user_pref("browser.search.order.5", "DuckDuckGo");
+user_pref("browser.search.selectedEngine", "Google");
 user_pref("browser.search.searchEnginesURL", "http://www.linuxmint.com/searchengines/");
 user_pref("keyword.URL", "https://duckduckgo.com/?t=lm&q=");
 
@@ -37,7 +39,7 @@ user_pref("network.dns.disableIPv6", true);
 user_pref("browser.startup.homepage_override.mstone", "ignore");
 
 // Homepage
-user_pref("browser.startup.homepage", "http://www.linuxmint.com/start/betsy");
+user_pref("browser.startup.homepage", "http://www.ausiasmarch.net");
 
 // Save tabs before exiting
 user_pref("browser.showQuitWarning", true);

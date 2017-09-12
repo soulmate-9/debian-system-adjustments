@@ -112,18 +112,18 @@ Options: encoding = utf8, version=15
 
 #URL 
 	ID=43 
-	NAME=Linux Mint 
-	URL=http://www.linuxmint.com/ 
-	DESCRIPTION=Linux Mint Homepage 
+	NAME=CIPFP Ausias March
+	URL=http://www.ausiasmarch.net 
+	DESCRIPTION=Pagina principal CIPFP Ausias March
 	ON PERSONALBAR=YES 
 	PERSONALBAR_POS=5 
 	UNIQUEID=7B58101098F211DE8A9EB73580F05090 
 
 #URL 
 	ID=48 
-	NAME=Forum 
-	URL=http://forums.linuxmint.com/
-	DESCRIPTION=Linux Mint Forum 
+	NAME=Campus CIPFP Ausias March
+	URL=https://campus.ausiasmarch.net
+	DESCRIPTION=Aula Virtual CIPFP Ausias March
 	ON PERSONALBAR=YES 
 	PERSONALBAR_POS=8 
 	UNIQUEID=DBD23E7098F211DE8AA2CF44C75463E3 
